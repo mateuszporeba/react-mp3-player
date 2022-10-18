@@ -31,7 +31,7 @@ function App() {
       audio.pause()
     }
   }
-
+  
   const getCurrDuration = (e) => {
     const percent = ((e.currentTarget.currentTime / e.currentTarget.duration) * 100).toFixed(2)
     const time = e.currentTarget.currentTime
@@ -61,6 +61,5 @@ function App() {
     </div>
   )
 }
-
 
 export default App
